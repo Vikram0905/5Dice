@@ -1,9 +1,9 @@
-version:2.0
+version: 0.2
 
-phrases:
+phases:
     build:
       commands:
-      - echo "This is build phrase... zipping my 5dice."
+      - echo "This is build phase... zipping my 5dice."
       
     post_build:
       commands:
